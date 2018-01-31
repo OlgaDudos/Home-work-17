@@ -159,8 +159,8 @@ void main()
 	for (int i = 0; i < row; i++)
 	{
 		int temp = arr[i][rowMin];
-		arr[i][rowMin] = arr[i][8];
-		arr[i][8] = temp;
+		arr[i][rowMin] = arr[i][9];
+		arr[i][9] = temp;
 	}
 	for (int i = 0; i < row; i++)
 	{
