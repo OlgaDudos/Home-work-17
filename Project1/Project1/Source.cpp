@@ -156,7 +156,7 @@ void main()
 		arr[0][j] = arr[colMin][j];
 		arr[colMin][j] = temp;
 	}
-	for (int i = 0; i < row; i++)
+	for (int i = 0; i < row-1; i++)
 	{
 		int temp = arr[i][rowMin];
 		arr[i][rowMin] = arr[i][9];
